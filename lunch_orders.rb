@@ -6,3 +6,7 @@ puts "What is your name?"
 name = gets.chomp
 # pleasantry
 puts "What would you like to order " + name + "?"
+
+# default values
+order = []
+answer = "y"
