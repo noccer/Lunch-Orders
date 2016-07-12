@@ -28,3 +28,7 @@ puts name + "'s order is:"
 order.each do |item|
   puts "#{item}"
 end
+
+# tell the person their order will be ready in x minutes.
+x = rand(5..10)
+puts "The order will be ready in " + x.to_s + " minutes."
