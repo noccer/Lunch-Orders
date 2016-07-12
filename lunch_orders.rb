@@ -17,4 +17,8 @@ while (answer == "y") do
   order.push(food)
   puts "Would you like to order anything else " + name + "? (y/n)"
   answer = gets.chomp.downcase
+  # if person opts to place another order, ask them what they want
+  if answer == "y"
+    puts "What else would you like to order?"
+  end
 end
