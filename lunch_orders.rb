@@ -22,3 +22,9 @@ while (answer == "y") do
     puts "What else would you like to order?"
   end
 end
+
+# List out the order
+puts name + "'s order is:"
+order.each do |item|
+  puts "#{item}"
+end
